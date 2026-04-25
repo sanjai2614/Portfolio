@@ -4,7 +4,7 @@ import github from '../assets/github.png'
 import gmail from '../assets/gmail.png'
 import hero from '../assets/hero.png'
 import hi from '../assets/hi.png'
-import CV from '../assets/CV.pdf'
+import CV from '../assets/Sanjai_resume_2026.pdf'
 import { DownloadIcon, Mail } from 'lucide-react'
 
 const Hero = ({ darkMode }) => {
