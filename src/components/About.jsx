@@ -84,6 +84,7 @@ I also have intermediate knowledge in Next.js, Python, and Docker, helping me bu
                                 Technologies
                         </div>
                     </div>
+                    <a href="#skills">
                      <button className={`w-full sm:w-auto border-2 border-orange-500 inline-flex items-center 
                          justify-center px-2 py-3 sm:px-6 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
                          rounded-full text-base sm:text-lg font-semibold transition-all 
@@ -93,6 +94,7 @@ I also have intermediate knowledge in Next.js, Python, and Docker, helping me bu
                          data-aos-delay='800'>
                              Learn More
                          </button>
+                    </a>
                 </div>
 
             </article>
