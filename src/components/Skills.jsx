@@ -1,3 +1,7 @@
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import javascript from '../assets/javascript.png'
+import typescript from '../assets/typescript.png'
 import react from '../assets/react.png'
 import next from '../assets/next.png'
 import tailwind from '../assets/tailwind.png'
@@ -9,14 +13,18 @@ import python from '../assets/python.png'
 
 const Skills = ({ darkMode }) => {
     const skills = [
+        { name: 'HTML', icon: html, level: 96, color: 'from-orange-500 to-red-500' },
+        { name: 'CSS', icon: css, level: 90, color: 'from-blue-500 to-indigo-500' },
+        { name: 'JavaScript', icon: javascript, level: 85, color: 'from-yellow-400 to-yellow-600' },
+        { name: 'TypeScript', icon: typescript, level: 50, color: 'from-blue-600 to-blue-800' },
         { name: 'React', icon: react, level: 90, color: 'from-cyan-500 to-blue-500' },
-        { name: 'Next.Js', icon: next, level: 55, color: 'from-gray-900 to-black' },
-        { name: 'Tailwind', icon: tailwind, level: 90, color: 'from-teal-500 to-cyan-500' },
+        { name: 'Next.js', icon: next, level: 55, color: 'from-gray-900 to-black' },
+        { name: 'Tailwind CSS', icon: tailwind, level: 90, color: 'from-teal-500 to-cyan-500' },
         { name: 'Bootstrap', icon: bootstrap, level: 86, color: 'from-blue-500 to-cyan-500' },
-        { name: 'Node', icon: node, level: 82, color: 'from-green-500 to-emerald-500' },
-        { name: 'Express', icon: express, level: 85, color: 'from-gray-400 to-gray-600' },
-        { name: 'Mongodb', icon: mongodb, level: 88, color: 'from-green-600 to-green-400' },
-        { name: 'Python', icon: python, level: 75, color: 'from-blue-500 to-indigo-500' },
+        { name: 'Node.js', icon: node, level: 82, color: 'from-green-500 to-emerald-500' },
+        { name: 'Express.js', icon: express, level: 85, color: 'from-gray-400 to-gray-600' },
+        { name: 'MongoDB', icon: mongodb, level: 88, color: 'from-green-600 to-green-400' },
+        { name: 'Python', icon: python, level: 75, color: 'from-indigo-500 to-purple-500' },
     ]
     return (
         <section id="skills"
