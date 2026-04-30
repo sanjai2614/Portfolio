@@ -15,7 +15,7 @@ const Footer = ({darkMode}) => {
         // background:darkMode?'linear-linear(to bottom, #000000 #111827)':'linear-linear(to bottom, #f3f4f6 #e5e7eb)',
         borderColor:darkMode?'#374151':'#d1d5db'}}
         className="border-t">
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-4 py-4">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-center md:text-left">
                         <h3 className="text-2xl font-bold mb-2 text-orange-500 dark:text-white"
@@ -33,22 +33,24 @@ const Footer = ({darkMode}) => {
                         <a href={github} target="_blank" rel="noopener noreferrer"
                         className="w-10 h-10 rounded-full flex items-center justify-center 
                         hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500
-                        hover:to-amber-500 hover:text-white
-                        bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
+                        hover:to-amber-500 hover:text-white hover:border-none border border-gray-500
+                          dark:text-white ">
                             <FaGithub/>
                         </a>
                         <a href={linkedin} target="_blank" rel="noopener noreferrer"
                         className="w-10 h-10 rounded-full flex items-center justify-center 
                         hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500
                         hover:to-amber-500 hover:text-white
-                        bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
+                        hover:border-none border border-gray-500
+                          dark:text-white ">
                             <FaLinkedin/>
                         </a>
                         <a href={instagram} target="_blank" rel="noopener noreferrer"
                         className="w-10 h-10 rounded-full flex items-center justify-center 
                         hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500
                         hover:to-amber-500 hover:text-white
-                        bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
+                        hover:border-none border border-gray-500
+                          dark:text-white ">
                             <FaInstagram/>
                         </a>
                     </div>

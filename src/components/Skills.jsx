@@ -23,7 +23,7 @@ const Skills = ({ darkMode }) => {
             // style={{backgroundColor:darkMode?'#111827':'#f9fafb'}}
             className='py-14 relative overflow-hidden'>
             <div className='relative overflow-hidden'>
-                <div className='container px-5 py-14 mx-auto'>
+                <div className='container px-6 py-14 mx-auto'>
                     <div className='text-center mb-20' data-aos='fade-up'>
                         <h1 className='sm:text-4xl text-3xl font-bold title-font mb-4'
                             style={{ color: darkMode ? 'white' : '#1f2937' }}>

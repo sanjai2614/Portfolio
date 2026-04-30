@@ -1,3 +1,5 @@
+import { DownloadIcon, Mail } from 'lucide-react'
+import { toast } from 'react-toastify'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
@@ -5,7 +7,6 @@ import gmail from '../assets/gmail.png'
 import hero from '../assets/hero.png'
 import hi from '../assets/hi.png'
 import CV from '../assets/Sanjai_resume_2026.pdf'
-import { DownloadIcon, Mail } from 'lucide-react'
 
 const Hero = ({ darkMode }) => {
 
@@ -42,7 +43,7 @@ const Hero = ({ darkMode }) => {
                 data-aos-delay='250'
                 className='body-font z-10'>
 
-                <div className='container mx-auto flex px-4 sm:px-8 lg:px-14 py-12 lg:py-14 
+                <div className='container mx-auto flex px-6 sm:px-8 lg:px-14 py-12 lg:py-14 
             flex-col lg:flex-row items-center justify-between lg:mt-14 mt-14'>
                     <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center
                 lg:text-left mb-12 lg:mb-0'>
@@ -70,24 +71,33 @@ const Hero = ({ darkMode }) => {
                             data-aos-delay='500'>
                             Hi, I'm Sanjai
                         </h1>
-                        <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg ${theme.textSceondary}`}
+                         <h1 className='title-font text-2xl sm:text-3xl font-semibold mb-4 sm:mb-6
+                    text-transparent bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text'
+                    data-aos='fade-up'
+                    data-aos-delay='500'>
+                        MERN Full Stack Developer
+                    </h1>
+                        <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg text-justify ${theme.textSceondary}`}
                             data-aos='fade-up'
                             data-aos-delay='600'>
-                            A MERN Full Stack Developer building responsive and user-friendly web applications
-                            with a focus on clean design and smooth user experience, creating scalable and efficient solutions.
+                            I design and build responsive and user-friendly web applications with a focus on clean design and smooth user experience, creating scalable and efficient solutions.
+I focus on building reliable applications and maintaining clean, structured code.
+
                         </p>
 
                         {/* Buttons */}
 
-                        <div className='w-full pt-4 sm:pt-6'>
+                        <div className='w-full pt-4'>
                             <div className='flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4'
                                 data-aos='fade-up'
                                 data-aos-delay='700'>
-                                <a href={CV} download className='w-full sm:w-auto'>
+                                <a href={CV} download 
+                                onClick={()=>toast.success('CV downloaded succesfully')}
+                                className='w-full sm:w-auto'>
                                     <button className='w-full sm:w-auto inline-flex items-center
                                         justify-center text-white bg-linear-to-r from-orange-500 to-amber-500 
-                                        border-0 px-3 py-4 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
-                                        rounded-full text-base sm:text-lg font-semibold transition-all 
+                                        border-0 px-3 py-3 sm:px-6 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
+                                        rounded-xl lg:rounded-2xl  text-base sm:text-lg font-semibold transition-all 
                                         duration-300 transform' >
                                         <DownloadIcon className='w-4 h-4 sm:h-5 sm:w-5 mr-2 ' />
                                         Download CV
@@ -95,9 +105,9 @@ const Hero = ({ darkMode }) => {
                                 </a>
                                 <a href="#contact" className='w-full sm:w-auto'>
                                     <button className={`w-full sm:w-auto inline-flex items-center ${theme.buttonSecondary}
-                                        justify-center border-0 px-3 py-4 sm:px-8 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
-                                        rounded-full text-base sm:text-lg font-semibold transition-all 
-                                        duration-300 transform`}>
+                                        justify-center border-0 px-3 py-3 sm:px-6 hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
+                                        rounded-xl lg:rounded-2xl text-base sm:text-lg font-semibold transition-all 
+                                        duration-300 transform`}>   
                                         <Mail className='w-4 h-4 sm:w-5 sm:h-5 mr-2' />
                                         Contact Me
                                     </button>
