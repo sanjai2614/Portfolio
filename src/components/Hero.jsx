@@ -43,9 +43,9 @@ const Hero = ({ darkMode }) => {
                 data-aos-delay='250'
                 className='body-font z-10'>
 
-                <div className='container mx-auto flex px-6 sm:px-8 lg:px-14 py-12 lg:py-14 
+                <div className='container mx-auto flex px-6 sm:px-8 lg:px-14 xl:px-20 2xl:px-26 py-12 lg:py-14 
             flex-col lg:flex-row items-center justify-between lg:mt-14 mt-14'>
-                    <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center
+                    <div className='lg:w-1/2 xl:w-3/4 w-full flex flex-col items-center lg:items-start text-center
                 lg:text-left mb-12 lg:mb-0'>
                         <div className='flex justify-center lg:justify-start gap-4 mb-6 sm:mb-7 w-full'>
                             {socialIcons.map((social, index) => (
@@ -77,7 +77,7 @@ const Hero = ({ darkMode }) => {
                     data-aos-delay='500'>
                         MERN Full Stack Developer
                     </h1>
-                        <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg text-justify ${theme.textSceondary}`}
+                        <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg 2xl:max-w-2xl text-justify ${theme.textSceondary}`}
                             data-aos='fade-up'
                             data-aos-delay='600'>
                             I design and build responsive and user-friendly web applications with a focus on clean design and smooth user experience, creating scalable and efficient solutions.
@@ -133,7 +133,7 @@ I focus on building reliable applications and maintaining clean, structured code
                             <img
                                 src={hi}
                                 alt="Hi icon"
-                                className='absolute -top-4 sm:top-4 left-6 sm:left-20 w-14 h-14 sm:w-20 sm:h-20
+                                className='absolute -top-4 sm:top-4 left-4 sm:left-14 w-14 h-14 sm:w-20 sm:h-20
                             object-contain animate-bounce opacity-90 z-10'/>
                         </div>
 

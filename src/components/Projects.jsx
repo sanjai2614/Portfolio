@@ -2,6 +2,9 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
+import project5 from '../assets/project5.png'
+import project6 from '../assets/project6.png'
 
 const Projects = ({ darkMode }) => {
     const projects = [
@@ -10,7 +13,7 @@ const Projects = ({ darkMode }) => {
             title: 'E-Commerce Marketo',
             desc: 'Marketo is an e-commerce application with features for browsing products, managing cart, and placing orders.',
             image: project1,
-            tags: ['React', 'Node', 'Express', 'Mongodb'],
+            tags: ['React','Tailwind CSS' , 'Node', 'Express', 'Mongodb'],
             github:'https://github.com/sanjai2614/Ecommerce_frontend',
             demo:'https://marketo-ecommerce.vercel.app/'
         },
@@ -31,6 +34,33 @@ const Projects = ({ darkMode }) => {
             tags: ['Html', 'Css', 'Javascript'],
             github:'https://github.com/sanjai2614/AI-Chat-Bot',
             demo:'https://ai-chat-bot-sanjai2614.vercel.app/'
+        },
+        {
+            id: 4,
+            title: 'Accordion',
+            desc: 'A modern Accordion (FAQ-style) component with smooth and interactive UI behavior.',
+            image: project4,
+            tags: ['React.js', 'Tailwind CSS'],
+            github:'https://github.com/sanjai2614/Accordion-react',
+            demo:'https://accordion-react-sanjai2614.vercel.app/'
+        },
+        {
+            id: 5,
+            title: 'To-do List',
+            desc: 'A simple and modern To-Do List application with features to add, strike, and delete tasks.',
+            image: project5,
+            tags: ['React.js', 'Tailwind CSS'],
+            github:'https://github.com/sanjai2614/To-do-List-React',
+            demo:'https://to-do-list-react-sanjai2614.vercel.app/'
+        },
+        {
+            id: 6,
+            title: 'YouTube Player',
+            desc: 'A mini YouTube player with ad-skip functionality and smooth playback controls.',
+            image: project6,
+            tags: ['Html', 'Css', 'Javascript'],
+            github:'https://github.com/sanjai2614/Youtube',
+            demo:'https://youtube-mini-player-sanjai2614.vercel.app/'
         },
     ]
     
