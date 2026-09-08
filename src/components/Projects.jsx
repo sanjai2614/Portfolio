@@ -13,54 +13,54 @@ const Projects = ({ darkMode }) => {
             title: 'E-Commerce Marketo',
             desc: 'Marketo is an e-commerce application with features for browsing products, managing cart, and placing orders.',
             image: project1,
-            tags: ['React','Tailwind CSS' , 'Node', 'Express', 'Mongodb'],
+            tags: ['React','Tailwind CSS', 'Node', 'Express', 'Mongodb'],
             github:'https://github.com/sanjai2614/Ecommerce_frontend',
             demo:'https://marketo-ecommerce.vercel.app/'
         },
         {
             id: 2,
-            title: 'Weather App',
-            desc: 'A real-time weather application that fetches and displays live data using the OpenWeatherMap API.',
+            title: 'SkyChat',
+            desc: 'A real-time chat application that allows users to communicate instantly through a simple and interactive messaging interface.',
             image: project2,
-            tags: ['Html', 'Css', 'Javascript'],
-            github:'https://github.com/sanjai2614/Weather-App',
-            demo:'https://weather-app-sanjai2614.vercel.app/'
+            tags: ['React', 'Tailwind CSS', 'Node', 'Express', 'MongoDB', 'Socket.IO'],
+            github:'https://github.com/sanjai2614/skychat-client',
+            demo:'https://skychat-app.vercel.app/'
         },
         {
             id: 3,
-            title: 'AI Chat Bot',
-            desc: 'A simple JavaScript chatbot that replies to user messages based on keywords.',
+            title: 'RBAC Admin panel',
+            desc: 'An RBAC admin panel with role-based access control, email verification, login authentication, and forgot password functionality.',
             image: project3,
-            tags: ['Html', 'Css', 'Javascript'],
-            github:'https://github.com/sanjai2614/AI-Chat-Bot',
-            demo:'https://ai-chat-bot-sanjai2614.vercel.app/'
+            tags: ['React', 'Tailwind CSS', 'Node', 'Express', 'MongoDB', 'resend'],
+            github:'https://github.com/sanjai2614/rbac_client',
+            demo:'https://rbac-admin-app.vercel.app/'
         },
         {
             id: 4,
-            title: 'Accordion',
-            desc: 'A modern Accordion (FAQ-style) component with smooth and interactive UI behavior.',
+            title: 'Personal Portfolio',
+            desc: 'A responsive personal portfolio website built to showcase my personal projects and experience.',
             image: project4,
-            tags: ['React.js', 'Tailwind CSS'],
-            github:'https://github.com/sanjai2614/Accordion-react',
-            demo:'https://accordion-react-sanjai2614.vercel.app/'
+            tags: ['React', 'Tailwind CSS', 'EmailJS', 'AOS'],
+            github:'https://github.com/sanjai2614/Portfolio',
+            demo:'https://sanjai-personalportfolio.vercel.app/'
         },
         {
             id: 5,
-            title: 'To-do List',
-            desc: 'A simple and modern To-Do List application with features to add, strike, and delete tasks.',
+            title: 'Google Login',
+            desc: 'Google authentication integrated using Firebase, allowing users to securely sign in and access the application with their Google account.',
             image: project5,
-            tags: ['React.js', 'Tailwind CSS'],
-            github:'https://github.com/sanjai2614/To-do-List-React',
-            demo:'https://to-do-list-react-sanjai2614.vercel.app/'
+            tags: ['React', 'Tailwind CSS','firebase'],
+            github:'https://github.com/sanjai2614/firebase-google-login',
+            demo:'https://firebase-google-login.vercel.app/'
         },
         {
             id: 6,
-            title: 'YouTube Player',
-            desc: 'A mini YouTube player with ad-skip functionality and smooth playback controls.',
+            title: 'Fake Store',
+            desc: 'Fake Store API integrated CRUD application built using Redux Toolkit, with functionality to create, read, update, and delete products.',
             image: project6,
-            tags: ['Html', 'Css', 'Javascript'],
-            github:'https://github.com/sanjai2614/Youtube',
-            demo:'https://youtube-mini-player-sanjai2614.vercel.app/'
+            tags: ['React', 'Tailwind CSS', 'redux'],
+            github:'https://github.com/sanjai2614/Fake-store',
+            demo:'https://fake-store-api-practice.vercel.app/'
         },
     ]
     
