@@ -12,10 +12,10 @@ const Contact = ({ darkMode }) => {
         e.preventDefault()
 
         emailjs.sendForm(
-            'service_sanjai2614',     // your service id
-            'template_sanjai2614',    // your template id
+            import.meta.env.VITE_SERVICE_ID,     // your service id
+            import.meta.env.VITE_TEMPLATE_ID,    // your template id
             form.current,
-            'UPzEb5aQrYlfryF4h'       // your public key
+            import.meta.env.VITE_PUBLIC_KEY       // your public key
         )
             .then(() => {
                 toast.success('Message sent successfully 🚀')
