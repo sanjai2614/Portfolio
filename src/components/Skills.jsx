@@ -10,21 +10,36 @@ import node from '../assets/node.png'
 import express from '../assets/express.png'
 import mongodb from '../assets/mongodb.png'
 import python from '../assets/python.png'
+import django from '../assets/django.png'
+import mysql from '../assets/mysql.png'
+import firebase from '../assets/firebase.png'
+import github from '../assets/github.png'
 
 const Skills = ({ darkMode }) => {
     const skills = [
+        // Frontend
         { name: 'HTML', icon: html, level: 96, color: 'from-orange-500 to-red-500' },
         { name: 'CSS', icon: css, level: 90, color: 'from-blue-500 to-indigo-500' },
-        { name: 'JavaScript', icon: javascript, level: 85, color: 'from-yellow-400 to-yellow-600' },
-        { name: 'TypeScript', icon: typescript, level: 80, color: 'from-blue-600 to-blue-800' },
-        { name: 'React', icon: react, level: 90, color: 'from-cyan-500 to-blue-500' },
-        { name: 'Next.js', icon: next, level: 75, color: 'from-gray-900 to-black' },
+        { name: 'JavaScript', icon: javascript, level: 90, color: 'from-yellow-400 to-yellow-600' },
+        { name: 'TypeScript', icon: typescript, level: 88, color: 'from-blue-600 to-blue-800' },
+        { name: 'React.js', icon: react, level: 95, color: 'from-cyan-500 to-blue-500' },
+        { name: 'Next.js', icon: next, level: 85, color: 'from-gray-900 to-black' },
         { name: 'Tailwind CSS', icon: tailwind, level: 90, color: 'from-teal-500 to-cyan-500' },
         { name: 'Bootstrap', icon: bootstrap, level: 86, color: 'from-blue-500 to-cyan-500' },
-        { name: 'Node.js', icon: node, level: 82, color: 'from-green-500 to-emerald-500' },
+
+        // Mern Backend
+        { name: 'Node.js', icon: node, level: 85, color: 'from-green-500 to-emerald-500' },
         { name: 'Express.js', icon: express, level: 85, color: 'from-gray-400 to-gray-600' },
         { name: 'MongoDB', icon: mongodb, level: 88, color: 'from-green-600 to-green-400' },
-        { name: 'Python', icon: python, level: 75, color: 'from-indigo-500 to-purple-500' },
+
+        // Python Backend
+        { name: 'Python', icon: python, level: 85, color: 'from-indigo-500 to-purple-500' },
+        { name: 'Django', icon: django, level: 80, color: 'from-green-700 to-green-500' },
+        { name: 'MySQL', icon: mysql, level: 80, color: 'from-blue-500 to-cyan-500' },
+        { name: 'Firebase', icon: firebase, level: 75, color: 'from-yellow-400 to-orange-500' },
+
+        // Tools
+        { name: 'Git & GitHub', icon: github, level: 92, color: 'from-orange-500 to-gray-700' },
     ]
     return (
         <section id="skills"

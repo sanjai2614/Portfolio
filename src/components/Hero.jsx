@@ -75,7 +75,7 @@ const Hero = ({ darkMode }) => {
                     text-transparent bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text'
                     data-aos='fade-up'
                     data-aos-delay='500'>
-                        MERN Full Stack Developer
+                        Full Stack Developer
                     </h1>
                         <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg 2xl:max-w-2xl text-justify ${theme.textSceondary}`}
                             data-aos='fade-up'

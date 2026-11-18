@@ -13,7 +13,7 @@ const Projects = ({ darkMode }) => {
             title: 'E-Commerce Marketo',
             desc: 'Marketo is an e-commerce application with features for browsing products, managing cart, and placing orders.',
             image: project1,
-            tags: ['React','Tailwind CSS', 'Node', 'Express', 'Mongodb'],
+            tags: ['React','Tailwind CSS', 'Node.js', 'Express.js', 'Mongodb'],
             github:'https://github.com/sanjai2614/Ecommerce_frontend',
             demo:'https://marketo-ecommerce.vercel.app/'
         },
@@ -22,7 +22,7 @@ const Projects = ({ darkMode }) => {
             title: 'SkyChat',
             desc: 'A real-time chat application that allows users to communicate instantly through a simple and interactive messaging interface.',
             image: project2,
-            tags: ['React', 'Tailwind CSS', 'Node', 'Express', 'MongoDB', 'Socket.IO'],
+            tags: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
             github:'https://github.com/sanjai2614/skychat-client',
             demo:'https://skychat-app.vercel.app/'
         },
@@ -31,7 +31,7 @@ const Projects = ({ darkMode }) => {
             title: 'RBAC Admin panel',
             desc: 'An RBAC admin panel with role-based access control, email verification, login authentication, and forgot password functionality.',
             image: project3,
-            tags: ['React', 'Tailwind CSS', 'Node', 'Express', 'MongoDB', 'resend'],
+            tags: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'resend'],
             github:'https://github.com/sanjai2614/rbac_client',
             demo:'https://rbac-admin-app.vercel.app/'
         },
@@ -55,12 +55,12 @@ const Projects = ({ darkMode }) => {
         },
         {
             id: 6,
-            title: 'Fake Store',
-            desc: 'Fake Store API integrated CRUD application built using Redux Toolkit, with functionality to create, read, update, and delete products.',
+            title: 'Social Shop',
+            desc: 'A social shopping platform that combines product discovery, user interactions, and seamless online shopping in one place.',
             image: project6,
-            tags: ['React', 'Tailwind CSS', 'redux'],
-            github:'https://github.com/sanjai2614/Fake-store',
-            demo:'https://fake-store-api-practice.vercel.app/'
+            tags: ['React', 'Tailwind', 'Node.js', 'Express.js', 'MongoDb'],
+            github:'https://github.com/sanjai2614/social-shop-client',
+            demo:'https://social-shop-client.vercel.app/'
         },
     ]
     
